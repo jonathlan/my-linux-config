@@ -27,8 +27,8 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 #Add new screen resolution 1920x1080
-#xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
-#xrandr --addmode eDP-1 "1920x1080_60.00"
+xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
+xrandr --addmode eDP-1 "1920x1080_60.00"
 
 #According to my graphics card, eDP/DP x4 single stream, should support:
 #3200x2000 60Hz 30bpp-3
